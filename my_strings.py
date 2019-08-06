@@ -26,6 +26,20 @@ def main():
     # You can use the "dummy" object:_
     departure, _, arrival = "London:Edinburgh".partition(":")
     print(departure, arrival)
+    # String formatting using format ()
+    print("the age of {0} is {1}".format("Mario", 34))
+    print("the age of {0} is {1}, and the birthday of {0} is {2}".format("Mario", 34, "August 12th"))
+    # Omitting the index
+    print("The best numbers are {} and {}". format(4, 22))
+    # By field name
+    print("current position {latitude} {longitude}".format(latitude="60 N", longitude="5 E"))
+    # print elements of list
+    print("Galactic position x={pos[0]}, y={pos[1]}, z={pos[2]}".format(pos=(85.6, 23.3, 99.0)))
+    # Second version of "format": print(f"{var}") python 3.7 or greater
+    # fname = "Waldo"
+    # lname = "Weber"
+    # print(f"The WSU mascot is {fname} {lname}")
+
 
 
 
