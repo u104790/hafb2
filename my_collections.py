@@ -58,22 +58,22 @@ def main():
     :return: Nothing
     """
     do_tuples()
-    # output = min_max([57, 76, 11,12, 90])
-    # print("min", output[0], type(output[0]))
-    # print("max", output[1])
+    output = min_max([57, 76, 11,12, 90])
+    print("min", output[0], type(output[0]))
+    print("max", output[1])
     # Tuple unpacking
-    # lower, upper = min_max([57, 76, 11,12, 90])
-    # print("min", lower, type(lower))
-    # print("max", upper)
+    lower, upper = min_max([57, 76, 11,12, 90])
+    print("min", lower, type(lower))
+    print("max", upper)
     # Swap values
-    # a = "jelly"
-    # b = "bean"
-    # print(a, b)
+    a = "jelly"
+    b = "bean"
+    print(a, b)
     # Call your function
-    # a, b = swap(a, b)
-    # print(a, b)
-    # a, b = b, a
-    # print (a, b)
+    a, b = swap(a, b)
+    print(a, b)
+    a, b = b, a
+    print (a, b)
 
 
 if __name__ == '__main__':
