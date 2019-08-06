@@ -23,6 +23,18 @@ def replace(g):
     print("g = ", g)
 
 
+def replace_content(g):
+    """
+    replace the content of the ine input list
+    :param g: input list
+    :return: nothing
+    """
+    g[0] = 88
+    g[1] = 22
+    g[2] = 44
+    print("g = ", g)
+
+
 def main():
     """
     test function
@@ -34,6 +46,8 @@ def main():
     print("After modify() m = ", m)
     replace(m)
     print("After replace() m = ", m)
+    replace_content(m)
+    print("After replace_content() m =", m)
 
 
 if __name__ == '__main__':
