@@ -4,6 +4,7 @@ http://icarus.cs.weber.edu/~hvalle/hafb/words.txt
 Task 1: Count number of words in document
 """
 from urllib.request import urlopen
+import urlib
 
 
 def fetch_words(filename):
