@@ -43,7 +43,7 @@ def add_spam(menu=None):
     :param menu:
     :return: menu list
     """
-    if menu is None:
+    if menu is None:  # N must be capitalized
         menu = []
     menu.append('spam')
     return menu
