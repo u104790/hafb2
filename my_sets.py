@@ -41,6 +41,22 @@ def main():
     bk_data = sdata.copy()
     print(bk_data is sdata)
     print(bk_data == sdata)
+    ######## Define some sets
+    blue_eyes = {'olivia', 'harry', 'lily', 'jack'}
+    blond_hair = {'harry', 'jack', 'amelia', 'mia', 'joshua',}
+    smell_hcn = {'harry', 'amelia'}
+    tast_ptc = {'harry', 'lily', 'amelia', 'lola'}
+    o_blood = {'mia', 'joshua', 'lily', 'olivia'}
+    b_blood = {'amelia', 'jack'}
+    a_blood = {'harry'}
+    ab_blood = {'joshua', 'lola'}
+    print(blue_eyes.union(blond_hair))
+    print(blue_eyes.intersection(tast_ptc))
+    print(smell_hcn.symmetric_difference(a_blood))
+    print(blond_hair.difference(ab_blood))
+    print(tast_ptc.issuperset((smell_hcn)))
+
+
 
 
 
