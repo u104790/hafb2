@@ -2,6 +2,7 @@
 Learn more about strings
 """
 
+
 def main():
     """
     Test function
