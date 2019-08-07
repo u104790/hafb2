@@ -46,7 +46,7 @@ def main():
     print("a[0] is b[0]:", a[0] is b[0])
     # Let's change on element
     a[0] = [8, 9]
-    print("change a[0[ to [8, 9]")
+    print("change a[0] to [8, 9]")
     print("a[0]:", a[0])
     print("b[0]:", b[0])
     print("a[0] is b[0]:", a[0] is b[0])
