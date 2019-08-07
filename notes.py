@@ -9,6 +9,8 @@ str     ""  []  index
 tuple   ()  []  index
 
 Anaconda is a good program that is free and includes a bunch of the add-ons
+
+Look up data visualisation 
 """
 
 
