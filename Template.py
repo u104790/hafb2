@@ -7,7 +7,7 @@ def main():
     Test function
     :return: Nothing
     """
-    Pass
+    pass
 
 
 if __name__ == '__main__':
