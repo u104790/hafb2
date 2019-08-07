@@ -58,6 +58,68 @@ def main():
     print("a[1] is b[1]:", a[1] is b[1])
     print("a:", a)
     print("b:", b)
+    # Repetition
+    c = [21, 37]
+    d = c * 4
+    print("c:", c)
+    print("d:", d)
+    # All point ot the same object
+    s = [[-1, 1]]*5
+    print(s)
+    s[1].append(7)
+    print(s)
+    # index() method for lists
+    w = "the quick brown fox jumps over the lazy dog".split()
+    print(w)
+    i = w.index('fox')
+    print("the index of 'fox' entry is:", i, w[i])
+    # If no index is found, it will throw a ValueError
+    # i = w.index('cat')  # cat is not in list so we get an error
+    # print("The index of 'cat' entry is:", i, w[i])
+
+    # Membership testing with: count()
+    print("'the' value is: ", w.count("the"))
+    print(37 in [12, 22, 37, 99])
+    print(78 not in [12, 22, 37, 99])
+    # Removing elements form list: index and del
+    w = "the quick brown fox jumps over the lazy dog".split()
+    print(len(w), w)
+    del w[3]  # delete using index
+    print(len(w), w)
+    # remove using: remove()
+    w.remove("over")
+    print(len(w), w)
+    # same as
+    del w[w.index('dog')]
+    print(len(w), w)
+    # Rearranging list of elements
+    g = [1, 11, 21, 1211, 112111]
+    print("g:", g)
+    g.reverse()  # This is a permanent change in order
+    print("reverse g:", g)
+    g.reverse()  # This is a permanent change in order
+    print("reverse g:", g)
+
+    # Sort method accepts two argument, key and reverse
+    d = [21, 33, 11, 77, 88, 33, 101, 1]
+    print("d:      ", d)
+    d.sort()
+    print("Sort d: ", d)
+    d.sort(reverse=True)
+    print("Sort.reverse d: ", d)
+    # sort by key
+    w = "the quick brown fox jumps over the lazy dog".split()
+    print("w:      ", w)
+    w.sort()
+    print("Sort w: ", w)
+    print("Sort.reverse w: ", w)
+    w.sort(key=len)
+    print(w)
+
+
+
+
+
 
 
 if __name__ == '__main__':
