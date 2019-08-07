@@ -11,3 +11,14 @@ Learning Python.
 
 ## Day 2 Summary
 - Mark-down (everyone is using it)
+- Learn about opening youtube videos (webbrowser module)
+- Learn about time module 
+- Learn about definitions:
+    - Require parameters
+    - Optional parameters
+- Tuples and unpacking tuples
+- Learn more about strings
+
+
+## Day 3 Summary
+- range
