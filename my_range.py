@@ -36,7 +36,10 @@ def main():
     # enumerate(): returns an iterable series
     t = [6, 789, 123, 98, 3, 22]
     for p in enumerate(t):
-        print(p)
+        print(p, p[0], p[1])
+    # a better way
+    for i, v in enumerate(t):
+        print("i = {}, v = {}".format(i, v))
 
 
 if __name__ == '__main__':
