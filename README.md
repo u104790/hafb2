@@ -21,4 +21,14 @@ Learning Python.
 
 
 ## Day 3 Summary
-- range
+- Completed our discussion on collections
+  - List
+  - Dictionaries
+  - Strings
+  - Tuples
+  - Range
+  - Sets
+- Basics of exceptions: **try, except, throw**
+- Comprehensions
+
+## Day 4 Summary

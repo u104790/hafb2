@@ -17,6 +17,10 @@ Look up data visualisation
 data scientist love comprehensions
 
 Look up recursion
+
+https://github.com/hugo-valle/intro-python
+
+
 """
 
 
