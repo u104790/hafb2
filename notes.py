@@ -22,6 +22,8 @@ https://github.com/hugo-valle/intro-python
 
 Look up pipeline process in programming, used in linux
 check push ability
+
+Code editing redefined "Visual Studio Code" google how to set up visual studio code with Python
 """
 
 
