@@ -6,23 +6,30 @@ from airtravel import Aircraft
 from pprint import pprint as pp
 
 
-def main():
+def make_flight():
     """
     Test function
     :return: Nothing
     """
-    f1 = Flight("SN066",
+    flight = Flight("SN066",
                 Aircraft("G-EUP", "Airbus A319",
                          num_rows=22,
                          num_seats_per_row=6)
                 )
     # pp(f1._seating)
-    f1.allocate_seat("02A", "Guido Van Rossum")
-    f1.allocate_seat("12B", "Rasums Lerdorf")
-    f1.allocate_seat("15F", "Bjare Stroustrup")
-    f1.allocate_seat("03A", "Larry Wall")
-    f1.allocate_seat("16F", "Yukihiro Matsumoto")
+    flight.allocate_seat("02A", "Guido Van Rossum")
+    flight.allocate_seat("12B", "Rasums Lerdorf")
+    flight.allocate_seat("15F", "Bjare Stroustrup")
+    flight.allocate_seat("03A", "Larry Wall")
+    flight.allocate_seat("16F", "Yukihiro Matsumoto")
+    return flight
+
+
+def main():
+    f1 = make_flight()
     pp(f1._seating)
+    pp("Available seats: ", f1.num_available_seats())
+
 
 
 if __name__ == '__main__':
