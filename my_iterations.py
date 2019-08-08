@@ -23,7 +23,9 @@ def main():
     # Other built-ins use with itertools: any ("or"), all ("and")
     print(any([False, False, True]))  # Like an or
     print(all([False, False, True]))  # Like an and
+    # 1361 is the prime number
     print("Are there prime numbers between 1328 and 1361?: ", any(is_prime(x) for x in range(1328, 1362)))
+
 
 
 if __name__ == '__main__':
