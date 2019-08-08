@@ -2,10 +2,12 @@
 List comprehensions
 Readable, expressive, and effective
 """
+
+
 from math import factorial, sqrt
+from pprint import pprint as pp
 
 
-# Filter predicates
 def is_prime(num):
     """
     Determine if the number is prime
@@ -21,24 +23,20 @@ def is_prime(num):
     return True
 
 
-# primes = [x for x in range(1001) if is_prime(x)]
-# print(len(primes), primes)
-
-
 def main():
     """
     Test function
     :return: Nothing
     """
-    # words = "Today I am very happy to learn about list comprehensions".split()
+    words = "Today I am very happy to learn about list comprehensions".split()
     # print(words)
-    # data = []  # empty list
-    # for word in words:
+    data = []  # empty list
+    for word in words:
     #     # Some analysis
-    #     data.append(word)
+        data.append(word)
 
     # "Filter" data
-    # print(data)
+    print(data)
 
     # Task: Find the length of the first 20 factorial numbers
     info = []  # empty list
@@ -46,10 +44,10 @@ def main():
         # puts factorial into list
         info.append(len(str(factorial(x))))
     # print info
-    print(info, type(info))
+    pp(info, type(info))
     # Use a list comprehension instead: [ ]
     info2 = [len(str(factorial(x))) for x in range(20)]
-    print(info2, type(info2))
+    pp(info2, type(info2))
 
     # Set comprehensions: { }
     info3 = {len(str(factorial(x))) for x in range(20)}
@@ -60,12 +58,6 @@ def main():
     print(nba_teams)
     teams_nba = {city:mascot for mascot, city in nba_teams.items()}
     print(teams_nba)
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
