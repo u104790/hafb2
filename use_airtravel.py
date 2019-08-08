@@ -40,9 +40,13 @@ def console_card_printer(passenger, seat, flight_number, aircraft):
 
 
 def main():
-    f1 = make_flight()
-    pp(f1.seating)
-    pp("Available seats: ", f1.num_available_seats())
+    """
+    to test function
+    :return:
+    """
+    flight = make_flight()
+    pp(flight.seating)
+    pp("Available seats: ", flight.num_available_seats())
 
 
 if __name__ == '__main__':

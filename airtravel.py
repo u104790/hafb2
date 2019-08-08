@@ -41,6 +41,7 @@ class Flight:
 
     def airline(self):
         return self._number[:2]
+
     def allocate_seat(self, seat, passenger):
         """
         Allocate a seat to a passenger
