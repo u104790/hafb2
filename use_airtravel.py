@@ -18,7 +18,6 @@ def main():
     print(f2.number(), f2.airline())
     a1 = Aircraft("G-EUP", "Airbus A31", num_rows=22, num_seats_per_row=6)
     print(a1.registration(), a1.model())
-#
 
 if __name__ == '__main__':
     main()
