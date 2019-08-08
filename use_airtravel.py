@@ -3,6 +3,7 @@ Use flight class
 """
 from airtravel import Flight
 from airtravel import Aircraft
+from pprint import pprint as pp
 
 
 def main():
@@ -18,6 +19,8 @@ def main():
     print(f2.number(), f2.airline())
     a1 = Aircraft("G-EUP", "Airbus A31", num_rows=22, num_seats_per_row=6)
     print(a1.registration(), a1.model())
+    pp(a1._seating)
+
 
 if __name__ == '__main__':
     main()

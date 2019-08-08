@@ -7,6 +7,7 @@ class Flight:
     """
     A Flight with a particular passenger aircraft
     """
+
     def __init__(self, number):  # Initializes
         """
         initializes Flight number
@@ -45,11 +46,21 @@ class Aircraft:
         self._num_rows = num_rows
         self._num_seats_per_row = num_seats_per_row
 
+        rows, seats = self.seating_plan()
+        self._seating = [None] + [{letter: None for letter in seats} for _ in rows]
+
     def registration(self):
         return self._registration
 
     def model(self):
         return self._model
+
+    def seating_plan(self):
+        return range(1, self._num_rows + 1), "ABCDEFGHJK"[:self._num_seats_per_row]
+
+    @property
+    def seating(self):
+        return self._seating
 
 
 def main():
