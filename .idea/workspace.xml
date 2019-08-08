@@ -14,15 +14,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5216495">
+    <splitter split-orientation="horizontal" split-proportion="0.485567">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="airtravel.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/airtravel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-                  <folding />
+                <state relative-caret-position="426">
+                  <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#172#1091#0" expanded="false" />
+                    <element signature="e#172#305#1" expanded="false" />
+                    <element signature="e#314#390#0" expanded="false" />
+                    <element signature="e#1197#1297#0" expanded="false" />
+                    <element signature="e#1197#1265#1" expanded="false" />
+                    <element signature="e#1330#1353#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -34,8 +41,8 @@
           <file leaf-file-name="use_airtravel.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/use_airtravel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding>
                     <element signature="e#25#53#0" expanded="true" />
                   </folding>
@@ -78,8 +85,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="14" />
+    <option name="x" value="-4" />
     <option name="width" value="1260" />
     <option name="height" value="944" />
   </component>
@@ -371,14 +377,28 @@
       <option name="project" value="LOCAL" />
       <updated>1565293993050</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated">
+      <created>1565295840529</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565295840529</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated">
+      <created>1565297234932</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565297234932</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="14" width="1260" height="944" extended-state="0" />
+    <frame x="-4" y="0" width="1260" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20621932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20621932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.26923078" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -436,7 +456,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#172#1091#0" expanded="false" />
+            <element signature="e#172#305#1" expanded="false" />
+            <element signature="e#314#390#0" expanded="false" />
+            <element signature="e#1197#1297#0" expanded="false" />
+            <element signature="e#1197#1265#1" expanded="false" />
+            <element signature="e#1330#1353#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,16 +591,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/airtravel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="426">
+          <caret line="66" column="46" lean-forward="false" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+          <folding>
+            <element signature="e#172#1091#0" expanded="false" />
+            <element signature="e#172#305#1" expanded="false" />
+            <element signature="e#314#390#0" expanded="false" />
+            <element signature="e#1197#1297#0" expanded="false" />
+            <element signature="e#1197#1265#1" expanded="false" />
+            <element signature="e#1330#1353#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/use_airtravel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#25#53#0" expanded="true" />
           </folding>

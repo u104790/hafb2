@@ -16,6 +16,12 @@ def main():
                          num_rows=22,
                          num_seats_per_row=6)
                 )
+    # pp(f1._seating)
+    f1.allocate_seat("02A", "Guido Van Rossum")
+    f1.allocate_seat("12B", "Rasums Lerdorf")
+    f1.allocate_seat("15F", "Bjare Stroustrup")
+    f1.allocate_seat("03A", "Larry Wall")
+    f1.allocate_seat("16F", "Yukihiro Matsumoto")
     pp(f1._seating)
 
 

@@ -41,6 +41,30 @@ class Flight:
 
     def airline(self):
         return self._number[:2]
+    def allocate_seat(self, seat, passenger):
+        """
+        Allocate a seat to a passenger
+        :param seat: A seat designator such as '12c', '21c'
+        :param passenger: The passenger name
+        :return:
+        """
+        rows, seat_letter = self._aircraft.seating_plan()
+        letter = seat[-1]  # take the letter from the seat
+        if letter not in seat_letter:
+            raise ValueError("Invalid seat letter {}".format(letter))
+
+        row_text = seat[:-1]
+        try:
+            row = int(row_text)
+        except ValueError:
+            raise ValueError("Invalid seat row{}".format(row_text))
+
+        if row not in rows:
+            raise ValueError("Inavalid row number{}".format(row))
+
+        if self._seating[row][letter] is not None:
+            raise ValueError("seat {} already occupied".format(seat))
+        self._seating[row][letter] = passenger
 
 
 class Aircraft:
