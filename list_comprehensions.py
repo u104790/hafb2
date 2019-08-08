@@ -5,12 +5,32 @@ Readable, expressive, and effective
 from math import factorial, sqrt
 
 
+# Filter predicates
+def is_prime(num):
+    """
+    Determine if the number is prime
+    :param num: input n
+    :return: True for prime numbers
+            False for non-prime numbers
+    """
+    if num < 2:
+        return False
+    for i in range(2, int(sqrt(num)) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+
+# primes = [x for x in range(1001) if is_prime(x)]
+# print(len(primes), primes)
+
+
 def main():
     """
     Test function
     :return: Nothing
     """
-    # words = "Today I am very happy to learn aobut list comprehensions".split()
+    # words = "Today I am very happy to learn about list comprehensions".split()
     # print(words)
     # data = []  # empty list
     # for word in words:
@@ -41,22 +61,6 @@ def main():
     teams_nba = {city:mascot for mascot, city in nba_teams.items()}
     print(teams_nba)
 
-    # Filter predicates
-    def is_prime(num):
-        """
-        Determine if the number is prime
-        :param num: input n
-        :return: True for prime numbers
-                False for non-prime numbers
-        """
-        if num < 2:
-            return False
-        for i in range(2, int(sqrt(num))+1):
-            if num % i == 0:
-                return False
-        return True
-    primes = [x for x in range(1001) if is_prime(x)]
-    print(len(primes), primes)
 
 
 
