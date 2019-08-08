@@ -12,10 +12,10 @@ def make_flight():
     :return: Nothing
     """
     flight = Flight("SN066",
-                Aircraft("G-EUP", "Airbus A319",
-                         num_rows=22,
-                         num_seats_per_row=6)
-                )
+                    Aircraft("G-EUP", "Airbus A319",
+                             num_rows=22,
+                             num_seats_per_row=6)
+                    )
     # pp(f1._seating)
     flight.allocate_seat("02A", "Guido Van Rossum")
     flight.allocate_seat("12B", "Rasums Lerdorf")
@@ -25,11 +25,24 @@ def make_flight():
     return flight
 
 
+def console_card_printer(passenger, seat, flight_number, aircraft):
+    output = "| Name: {0}" \
+             "| Flight: {1}" \
+             "| Seat: {2}" \
+             "| Aircraft: {3}" \
+             "|".format(passenger, flight_number, seat, aircraft)
+    banner = "+" + "-" * (len(output) - 2) + "+"
+    border = "|" + " " * (len(output) - 2) + "|"
+    lines = [banner, border, output, border, banner]
+    card = '\n'.join(lines)
+    print(card)
+    print()
+
+
 def main():
     f1 = make_flight()
-    pp(f1._seating)
+    pp(f1.seating)
     pp("Available seats: ", f1.num_available_seats())
-
 
 
 if __name__ == '__main__':
