@@ -20,7 +20,7 @@ Look up recursion
 
 https://github.com/hugo-valle/intro-python
 
-
+Look up pipeline process in programming, used in linux
 """
 
 
